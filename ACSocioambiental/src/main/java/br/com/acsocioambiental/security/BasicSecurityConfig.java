@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.seguranca;
+package br.com.acsocioambiental.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

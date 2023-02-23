@@ -1,10 +1,11 @@
-package com.example.ACSocioambiental.controller;
+package br.com.acsocioambiental.controller;
 
 import java.util.Optional;
 
-import com.example.ACSocioambiental.Model.UserLogin;
-import com.example.ACSocioambiental.Model.Usuario;
-import com.example.ACSocioambiental.service.UsuarioService;
+import br.com.acsocioambiental.model.UserLogin;
+import br.com.acsocioambiental.model.Usuario;
+import br.com.acsocioambiental.service.UsuarioService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

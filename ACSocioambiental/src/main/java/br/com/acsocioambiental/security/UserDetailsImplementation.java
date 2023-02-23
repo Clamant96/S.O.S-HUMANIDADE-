@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.seguranca;
+package br.com.acsocioambiental.security;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.example.ACSocioambiental.Model.Usuario;
+import br.com.acsocioambiental.model.Usuario;
 
 public class UserDetailsImplementation implements UserDetails {
 	

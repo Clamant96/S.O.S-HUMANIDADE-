@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.repository;
+package br.com.acsocioambiental.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.example.ACSocioambiental.Model.Produto;
+import br.com.acsocioambiental.model.Produto;
 
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long>{

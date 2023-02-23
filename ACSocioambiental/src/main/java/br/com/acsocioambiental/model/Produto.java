@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.Model;
+package br.com.acsocioambiental.model;
 
 
 

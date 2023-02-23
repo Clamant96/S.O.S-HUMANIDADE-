@@ -1,11 +1,11 @@
-package com.example.ACSocioambiental.repository;
+package br.com.acsocioambiental.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.ACSocioambiental.Model.Usuario;
+import br.com.acsocioambiental.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{

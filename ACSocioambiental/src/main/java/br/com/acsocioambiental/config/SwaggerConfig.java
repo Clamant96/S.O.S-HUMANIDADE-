@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.config;
+package br.com.acsocioambiental.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

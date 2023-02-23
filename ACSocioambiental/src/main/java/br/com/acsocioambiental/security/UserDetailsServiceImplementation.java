@@ -1,9 +1,9 @@
-package com.example.ACSocioambiental.seguranca;
+package br.com.acsocioambiental.security;
 
 import java.util.Optional;
 
-import com.example.ACSocioambiental.Model.Usuario;
-import com.example.ACSocioambiental.repository.UsuarioRepository;
+import br.com.acsocioambiental.model.Usuario;
+import br.com.acsocioambiental.repository.UsuarioRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

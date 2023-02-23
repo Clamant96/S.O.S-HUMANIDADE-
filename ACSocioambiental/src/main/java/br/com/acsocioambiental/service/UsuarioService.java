@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.service;
+package br.com.acsocioambiental.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.ACSocioambiental.Model.UserLogin;
-import com.example.ACSocioambiental.Model.Usuario;
-import com.example.ACSocioambiental.repository.UsuarioRepository;
+import br.com.acsocioambiental.model.UserLogin;
+import br.com.acsocioambiental.model.Usuario;
+import br.com.acsocioambiental.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {

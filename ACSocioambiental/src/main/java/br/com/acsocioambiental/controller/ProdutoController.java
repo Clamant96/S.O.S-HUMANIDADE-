@@ -1,4 +1,4 @@
-package com.example.ACSocioambiental.controller;
+package br.com.acsocioambiental.controller;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.ACSocioambiental.Model.Produto;
-import com.example.ACSocioambiental.repository.ProdutoRepository;
+import br.com.acsocioambiental.model.Produto;
+import br.com.acsocioambiental.repository.ProdutoRepository;
 
 @RestController
 @RequestMapping("/produtos")
